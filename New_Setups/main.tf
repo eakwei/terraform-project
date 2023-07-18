@@ -1,9 +1,3 @@
-provider "aws" {
-  region = "eu-west-2"
-  access_key = "AKIAQS5TFTFOXXUOPHOQ"
-  secret_key = "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"
-}
-
 module "new_deployment" {
   source = "../modules/web_db_service"
   region = "eu-west-2"

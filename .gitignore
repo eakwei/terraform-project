@@ -4,6 +4,7 @@ New_Setups/.terraform/*
 # tf state files
 New_Setups/*.tfstate
 New_Setups/*.tfstate.*
+New_Setups/*.tfvars
 
 # tfvar files may include sensitive data
 #*.tfvars
