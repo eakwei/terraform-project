@@ -1,0 +1,13 @@
+#local .terraform folder
+New_Setups/.terraform/*
+
+# tf state files
+New_Setups/*.tfstate
+New_Setups/*.tfstate.*
+
+# tfvar files may include sensitive data
+#*.tfvars
+
+modules/web_db_service/.terraform/*
+modules/web_db_service/*.tfstate
+modules/web_db_service/*.tfstate.*
